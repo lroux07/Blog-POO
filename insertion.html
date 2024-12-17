@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form action="insert.php" method="post" enctype="multipart/form-data">
+        <label for="title">Titre :</label><br>
+        <input type="text" name="titre" id="title" placeholder="Ecrire ici">
+
+        <br>
+        <br>
+
+        <label for="commentaire">Commentaire :</label><br>
+        <textarea name="commentaire" id="commentaire" placeholder="Ecrire ici"></textarea>
+
+        <br>
+        <br>
+
+        <label for="photo">Photo :</label><br>
+        <input type="file" name="photo" id="photo"><br>
+
+        <br>
+
+        <input type="submit" name="btn" value="Envoyer">
+    </form>
+</body>
+</html>
